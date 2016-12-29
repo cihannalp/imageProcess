@@ -1,4 +1,6 @@
 #include "../headers/img_pro.h"
+
+
 color **edge_color(color **img, int Threshold, float Intensity, float Saturation, int NC, int NR){
     unsigned char **mag;
     mag=alloc_img(NC,NR);

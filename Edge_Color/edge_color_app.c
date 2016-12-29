@@ -7,7 +7,7 @@ Note that img_pro.c and img_pro.h are updated to handle color images
 
 
 #include "../headers/img_pro.h"
-#include "../headers/rgbgauss.h"
+#include "../headers/edge_color.h"
 
 
 int main(int argc, char **argv){
