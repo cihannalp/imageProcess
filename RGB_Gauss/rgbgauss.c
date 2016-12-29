@@ -15,8 +15,8 @@ color **rgbgauss(color **img, int R, int G, int B, int NC, int NR, int n_iter){
 
     int i, j, k, m = 3, t;
     int sumR = 0, sumG = 0, sumB = 0;
-    int kernel[3] = {1,2,1}; //gaussian kernel. I think It is not looking nice here because it is hard coded
-                             
+    int kernel[3] = {1,2,1}; //gaussian kernel
+
 
 
     color **imgOut;
